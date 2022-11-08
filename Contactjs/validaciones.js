@@ -9,11 +9,11 @@ function emailValido() {
 	var valor = document.getElementById("email").value;
 	var vlce = false;
 	if (!expresion.email.test(valor)){
-		alert('Direccion de Correo No valida...!!!');
+		alert('Error¡ La direccion de correo debe constar de caracteres especiales');
 		vlce = false;
 	}
 	else{
-		console.log("Direccion de Correo Correcta");
+		console.log("Correo Electronico valido");
 		vlce = true;
 	}
 	return vlce;
@@ -25,7 +25,7 @@ function telefonoValido(){
 	if(valor.length == 10 && !isNaN(valor)){
 		vltl = true;
 	}else{
-		alert('El Numero de telefono ingresado es Incorrecto');
+		alert("Error¡ El numero telefonico debe contener unicamente numeros");
 	}
 	return vltl;
 }
@@ -38,7 +38,7 @@ function delay(n){
 
 function validar(){
 	if(emailValido() && telefonoValido()){
-		alert("Los datos ingresados son Correctos");
+		alert("Ingreso de datos EXITOSO¡");
 		return true;
 	}else{
 		return false;
@@ -49,7 +49,7 @@ async function deshabilitar(){
 	if(validar() == true){
 		var btn = document.getElementById('btn');
 		btn.disabled = true;
-		btn.value = 'Enviando datos ..........';
+		btn.value = 'Enviando datos..';
 		await delay(2);
 		btn.form.submit();
 	}
