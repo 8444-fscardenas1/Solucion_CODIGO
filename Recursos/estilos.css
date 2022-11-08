@@ -21,12 +21,12 @@ h2{
 }
 
 .Boton {
-    background-color: #ffffff;
+    background-color: #e2ec4f;
     border-width:5px;
 	 border-style:solid;
-	 border-color:rgba(121, 121, 121, 1);
+	 border-color:rgba(63, 28, 28);
 	 border-radius:10px;
-    color: #0000FF;
+    color: #2f76d3;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -45,11 +45,11 @@ h2{
   height:170px;
   float: none;
   background:inherit;
-  background-color: rgba(0, 255, 255);
+  background-color: rgb(247, 157, 54);
   box-sizing:border-box;
   border-width:5px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgba(63, 28, 28);
   border-radius:10px;
  }
 
@@ -62,11 +62,11 @@ h2{
   height:70px;
   float: none;
   background:inherit;
-  background-color: rgba(255,255,0);
+  background-color: rgb(93, 177, 25);
   box-sizing:border-box;
   border-width:5px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgba(63, 28, 28);
   border-radius:10px;
   padding-top: 10px;
 }
@@ -81,11 +81,11 @@ h2{
   height:320px;
   float: left;
   background:inherit;
-  background-color: rgba(255, 255, 255);
+  background-color: rgb(163, 96, 96);
   box-sizing:border-box;
   border-width:5px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgba(63, 28, 28);
   border-radius:10px;
   padding-top: 80px;
  }
@@ -101,11 +101,11 @@ h2{
   height:320px;
   float: left;
   background:inherit;
-  background-color: #b6fab6;
+  background-color: #49f094;
   box-sizing:border-box;
   border-width:5px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgba(63, 28, 28);
   border-radius:10px;
 }
 
@@ -124,7 +124,7 @@ h2{
   box-sizing:border-box;
   border-width:5px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgba(63, 28, 28);
   border-radius:10px;
   padding-left: 10px;
   padding-top: 10px;
@@ -142,11 +142,11 @@ h2{
   height:60px;
   float: none;
   background:inherit;
-  background-color: rgba(255,255,0);
+  background-color: rgba(93, 177, 25);
   box-sizing:border-box;
   border-width:5px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgb(63, 28, 28);
   border-radius:10px;
   padding-top: 10px;
 }
